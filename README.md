@@ -1,4 +1,4 @@
-# Bian_JASA2023
+# Off-policy Evaluation in Doubly Inhomogeneous Environments (JASA2023)
 
 Article: Off-policy Evaluation in Doubly Inhomogeneous Environments.
 
