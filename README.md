@@ -6,6 +6,6 @@ Author: Zeyu Bian, Chengchun Shi, Zhengling Qi and Lan Wang
 
 Email: zeyu.bian@miami.edu
 
-The enclosed R.file demonstrates the implementation of the proposed method for . Here we present a sample code.
+The enclosed R.file demonstrates the implementation of the proposed method for TWDIDP.
 
-The R.file ‘gen_binary.R’ is used to generate the simulated data, where all the notations of the outputs follow the ones in the main paper. The fitting procedure can be found in R.file 'pdr.R'. Required package: glmnet and drgee.
+The README.Rmd provides instructions on how to implement the code. The TWDIDP.R files implements the proposed two-way doubly inhomogeneous decision process; the target.R and the MCMC.R were used to calculate the true value function; the mixdata.R was used to generate the observed data. The mimic.R file contains code for doing analysis in the paper and the pre-processed MIMIC datasets. The fitted-q.R file is the competing method for the fitted-q evaluation. Finally, the cartpole.ipynb file illustrate how to generate data from the OpenAI Gym environment Cartpole.
